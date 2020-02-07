@@ -1,0 +1,135 @@
+.header{
+    padding: 5% 0;
+    height:50%;
+    background: 
+        linear-gradient(172.46deg, rgba(14, 11, 32, 0.86) 14.75%, rgba(14, 11, 32, 0) 25.05%), 
+        url(../img/AdobeStock_188698373.jpg) no-repeat 80% 30%;
+    background-size:cover;
+    h1{
+        padding-left: 10%;
+        text-align:start;
+        .font(@cortado, 1080%);
+        line-height:1.3;
+        text-shadow: 
+            0px 4px 4px rgba(0, 0, 0, 0.25),
+            0px 4px 4px rgba(0, 0, 0, 0.25)
+            ;
+        background:radial-gradient( rgba(239, 1, 159, 0.75) 61.46%, rgba(239, 1, 159, 0) 97.92%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+
+        @media(max-width:1280px){
+            padding-left:10%;
+            text-align:left;
+            font-size:720%;
+        }
+
+        @media(max-width:500px){
+            padding:0;
+            text-align:center;
+        }
+    }
+
+    h2{
+        margin-left: 25%;
+        text-align: left;
+        font-size:700%;
+
+        @media(max-width:1280px){
+            font-size:500%;
+        }
+
+        @media(max-width:500px){
+            margin-left: 5%;
+            font-size:360%;
+        }
+    }
+
+    h3{
+        margin-left: 25%;
+        text-align: left;
+        font-size:480%;
+
+        @media(max-width:1280px){
+            margin-left: 18%;
+            font-size:320%;
+        }
+
+        @media(max-width:500px){
+            margin-left: 5%;
+            font-size: 240%;
+        }
+    }
+
+    .subtitle{
+        background: radial-gradient(196.56% 824.49% at 66.75% -23.66%, rgba(14, 11, 32, 0.36) 70.31%, rgba(239, 1, 159, 0.0825) 85.42%);
+        margin: 4% 0;
+        text-align:start;
+        line-height: 1.2;
+
+        @media(max-width:500px){
+            text-align:left;
+            margin: 14% 0;
+            padding: 2% 10%;
+        }
+    }
+
+    #first-sub{
+        width:41%;
+
+        @media(max-width:1280px){
+            width:41%;
+        }
+
+        @media(max-width:500px){
+            width:100%;
+        }
+    }
+
+    #second-sub{
+        width:41%;
+
+        @media(max-width:1280px){
+            width:56%;
+        }
+
+        @media(max-width:500px){
+            width:100%;
+        }
+    }
+
+    .button-container{
+        
+
+        a{
+            display:flex;
+            justify-content:flex-end;
+            margin-right: 10%;
+            text-decoration:none;
+
+            button{
+                @media(max-width:1280px){
+                    margin: 6% 0% 0% 10%;
+                    padding:2.5% 5%;
+                }
+            
+                @media(max-width:500px){
+                    padding: 4% 7.99%;
+                    margin:0;
+                }
+            }
+        }
+
+        @media(max-width: 500px){
+            padding-top: 17%;
+        }
+    }
+
+    @media(max-width:1280px){
+        height:600px;
+    }
+
+    @media(max-width:400px){
+        height: 640px;
+    }
+}
